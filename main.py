@@ -28,6 +28,8 @@ worksheet = sh.sheet1
 
 res = worksheet.get_all_records()
 print(res)
+with open("output.json", "w") as outfile:
+    outfile.write(str(res))
 #file2 = 'output.json'
 #json_object = json.dumps(res, indent=4)
 #with open(os.path.join(path, file2), "w") as outfile:
