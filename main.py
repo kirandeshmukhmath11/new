@@ -17,7 +17,7 @@ cred = {
 #file = 'sample.json'
 #json_object = json.dumps(credentials, indent=4)
  
-# Writing to sample.json
+#Writing to sample.json
 #with open(os.path.join(path, file), "w") as outfile:
     #outfile.write(json_object)
 
